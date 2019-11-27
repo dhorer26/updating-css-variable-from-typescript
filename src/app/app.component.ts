@@ -6,5 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'firebase-auth-angular-app';
+  constructor() {
+    document.documentElement.style.setProperty('--bg-red', 'red');
+  }
 }
